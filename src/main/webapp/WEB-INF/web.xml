@@ -6,16 +6,13 @@
     <display-name>Archetype Created Web Application</display-name>
 
     <servlet>
-        <servlet-name>Brettservlet</servlet-name>
-        <servlet-class>aaa.bbb.Brettservlet</servlet-class>
+        <servlet-name>spring-ws</servlet-name>
+        <servlet-class>org.springframework.ws.transport.http.MessageDispatcherServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>Brettservlet</servlet-name>
-        <url-pattern>/Brett</url-pattern>
+        <servlet-name>spring-ws</servlet-name>
+        <url-pattern>/*</url-pattern>
     </servlet-mapping>
-    
-    
-    
 
 </web-app>
